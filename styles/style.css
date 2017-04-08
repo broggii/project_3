@@ -1,0 +1,12 @@
+body {
+  background-color: skyblue;
+}
+.login_area {
+  background-color: white;
+
+}
+img {
+  display: block;
+  margin: auto;
+  height: 35px;
+}
