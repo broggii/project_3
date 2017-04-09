@@ -1,12 +1,64 @@
 body {
-  background-color: skyblue;
+  background-color: dodgerblue;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .login_area {
   background-color: white;
-
+  display: block;
+  margin: auto;
+  width: 320px;
+  padding: 0 40px 0 40px;
+  border-radius: 5px;
+}
+.login_area h1 {
+  padding-top: 30px;
+  text-align: center;
+  color: grey;
+}
+input {
+  width: 287px;
+  border: 2px solid lightgrey;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+#pl {
+  padding-left: 15px;
+  color: lightgrey;
 }
 img {
   display: block;
   margin: auto;
   height: 35px;
+}
+p {
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.pw {
+  padding-bottom: 40px;
+  display: block;
+  text-align: center;
+}
+.ha  {
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+a:link {
+  color: grey;
+
+}
+a:visited {
+  color: lightgrey;
+}
+.button {
+  width: 309px;
+  background-color: mediumseagreen;
+  border: seagreen;
+  color: white;
+}
+.button:hover {
+  background-color: green;
 }

@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>AnalogSea</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 </head>
 
 <body>
@@ -12,14 +13,15 @@
     <div class="login_area">
         <h1>Sign up</h1>
         <form class="form" action="/signup/" method="post">
-            Email <br>
-            <input type="email" name="email" value="foo@bar.com" required="yes"><br> Password <br>
-            <input type="password" name="psw" value="1234passw0rd" required="yes"><br>
-            <input type="submit" name="" value="Submit">
+            <p>Email</p>
+            <input type="email" name="email" value="foo@bar.com" id="pl" required="yes"><br>
+            <p>Password</p>
+            <input type="password" name="psw" value="1234passw0rd" id="pl" required="yes"><br>
+            <input type="submit" name="" value="Submit" class="button">
         </form>
-        <a href="/forgot-password/new">Forgot password?</a>
+        <a href="/forgot-password/new" class="pw">Forgot password?</a>
     </div>
-    <p>Already have an account? <a href="/login">Log in</a></p>
+    <p class="ha">Already have an account? <a href="/login">Log in</a></p>
 </body>
 
 </html>
